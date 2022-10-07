@@ -1,6 +1,6 @@
 # LinkIT
 
-A Social Media link sharing app which converts your links into QR code on the fly.
+Sharing your social media handles is just one scan away.
 
 # Figma UI Map
 
