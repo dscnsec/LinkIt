@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.dscnsec.linkit.ui.theme
 
 import android.app.Activity
