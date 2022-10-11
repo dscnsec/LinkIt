@@ -18,7 +18,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import com.dscnsec.linkit.R
 import com.dscnsec.linkit.navigation.Screen
 import com.dscnsec.linkit.ui.theme.PrimaryColor
 import com.dscnsec.linkit.utils.OnBoardingPage
@@ -56,7 +58,7 @@ fun WelcomeScreen(
             pagerState = pagerState
         )
         LoginButton(
-            modifier = Modifier.weight(1f),
+            modifier = Modifier.weight(1.5f),
             pagerState = pagerState
         ) {
             navController.popBackStack()
@@ -101,7 +103,7 @@ fun LoginButton(
 ) {
     Row(
         modifier = modifier
-            .padding(horizontal = 90.dp),
+            .padding(horizontal = 100.dp),
         verticalAlignment = Alignment.Top,
         horizontalArrangement = Arrangement.Center
     ) {
@@ -114,12 +116,17 @@ fun LoginButton(
             Button(
                 onClick = onClick,
                 shape= RoundedCornerShape(50),
+                contentPadding = PaddingValues(vertical = 10.dp),
                 colors = ButtonDefaults.buttonColors(
                     contentColor = Color.White,
                     backgroundColor = PrimaryColor
                 )
             ) {
-                Text(text = "Login with Google")
+                Text(text = "Login with ", fontSize = 25.sp)
+                Image(
+                    modifier = Modifier.width(30.dp).height(30.dp),
+                    painter = painterResource(id = R.drawable.google_logo),
+                    contentDescription = "google logo" )
             }
         }
     }
