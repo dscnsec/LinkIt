@@ -1,4 +1,4 @@
-package com.dscnsec.linkit.navigation
+package com.dscnsec.linkit.utils
 
 sealed class Screen(val route: String) {
     object Welcome : Screen(route = "welcome_screen")

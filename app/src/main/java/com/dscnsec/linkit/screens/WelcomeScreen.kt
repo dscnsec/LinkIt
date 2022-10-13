@@ -1,3 +1,5 @@
+@file:Suppress("OPT_IN_IS_NOT_ENABLED")
+
 package com.dscnsec.linkit.screens
 
 
@@ -21,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.dscnsec.linkit.R
-import com.dscnsec.linkit.navigation.Screen
+import com.dscnsec.linkit.utils.Screen
 import com.dscnsec.linkit.ui.theme.PrimaryColor
 import com.dscnsec.linkit.utils.OnBoardingPage
 import com.google.accompanist.pager.*
