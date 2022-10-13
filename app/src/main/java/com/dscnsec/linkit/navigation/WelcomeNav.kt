@@ -5,6 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.dscnsec.linkit.mock.mockData
 import com.dscnsec.linkit.screens.HomeScreen
 import com.dscnsec.linkit.screens.WelcomeScreen
 import com.google.accompanist.pager.ExperimentalPagerApi
@@ -23,7 +24,7 @@ fun SetupNavGraph(
             WelcomeScreen(navController = navController)
         }
         composable(route = Screen.Home.route) {
-            HomeScreen()
+            HomeScreen(data= mockData)
         }
     }
 }
