@@ -32,7 +32,7 @@ import com.dscnsec.linkit.models.User
 @Composable
 fun Profile(data : User){
     Column( modifier = Modifier
-        .fillMaxSize()
+        .fillMaxSize().background(color = Color.White)
         .padding(vertical = 31.dp) , horizontalAlignment = Alignment.CenterHorizontally) {
         Image(painter = rememberAsyncImagePainter(data.profileImage!!),
             contentDescription = "profile image",
@@ -46,7 +46,7 @@ fun Profile(data : User){
         Spacer(modifier = Modifier.height(15.dp))
         Box(modifier = Modifier
             .fillMaxWidth()
-            .height(500.dp)
+            .height(400.dp)
             .padding(horizontal = 20.dp)
             .clip(RoundedCornerShape(corner = CornerSize(20.dp)))
             .background(Color.Black)){
@@ -70,7 +70,7 @@ fun Profile(data : User){
                             items(it.size) {
                                 Box(
                                     modifier = Modifier
-                                        .height(80.dp)
+                                        .height(70.dp)
                                         .width(60.dp)
                                         .padding(10.dp)
                                 ) {

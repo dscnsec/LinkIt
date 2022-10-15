@@ -28,7 +28,7 @@ fun DashboardScreen(
     data: User
 ) {
     Column( modifier = Modifier
-        .fillMaxSize()
+        .fillMaxSize().background(color = Color.White)
         .padding(horizontal = 20.dp, vertical = 31.dp) , horizontalAlignment = Alignment.CenterHorizontally) {
 
         data.profileImage?.let {
