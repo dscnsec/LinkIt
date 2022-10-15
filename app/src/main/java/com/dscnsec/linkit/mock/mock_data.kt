@@ -6,57 +6,57 @@ import com.dscnsec.linkit.models.User
 
 var mockLinks : List<Links> = listOf(
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://www.linkedin.com/company/dscnsec/",
+        title = "Linkedin",
+        image = "https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
     ),
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://chat.whatsapp.com/DndqrP1SXVXCV9m3olpoIJ",
+        title = "Whatsapp",
+        image = "https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
     ),
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://instagram.com/dscnsec",
+        title = "Instagram",
+        image = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
     ),
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://www.dev.to",
+        title = "Dev.to",
+        image = "https://friconix.com/png/fi-swluxx-dev-to.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
     ),
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://www.hashnode.com",
+        title = "Hashnode",
+        image = "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
     ),
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://github.com/dscnsec",
+        title = "Github",
+        image = "https://cdn-icons-png.flaticon.com/512/25/25231.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
     ),
     Links(
-        link = "https://www.google.com",
-        title = "Google",
-        image = "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
+        link = "https://discord.com/invite/gFQ4VdWg",
+        title = "Discord",
+        image = "https://cdn.logojoy.com/wp-content/uploads/20210422095037/discord-mascot.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
@@ -65,10 +65,10 @@ var mockLinks : List<Links> = listOf(
 
 
 var mockData : User = User(
-    name = "Mr AppDev",
+    name = "GDSC NSEC",
     email = "app@dscnsec.com",
     phone = "1234567890",
-    profileImage = "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg",
+    profileImage = "https://dscnsec.com/favicon.png",
     uid = "1234567890",
     totalShared = 0,
     links = mockLinks,
