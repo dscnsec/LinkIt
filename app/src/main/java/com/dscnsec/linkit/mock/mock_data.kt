@@ -8,7 +8,7 @@ var mockLinks : List<Links> = listOf(
     Links(
         link = "https://www.linkedin.com/company/dscnsec/",
         title = "Linkedin",
-        image = "https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png",
+        image = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
@@ -16,7 +16,7 @@ var mockLinks : List<Links> = listOf(
     Links(
         link = "https://chat.whatsapp.com/DndqrP1SXVXCV9m3olpoIJ",
         title = "Whatsapp",
-        image = "https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Logo.png",
+        image = "https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png",
         timestamp = "2021-10-10 10:10:10",
         id = "1234567890",
         linkHits = 0
