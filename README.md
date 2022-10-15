@@ -2,7 +2,9 @@
 
 Sharing your social media handles is just one scan away.
 
-# Figma UI Map
+# Figma Design Link
+
+- [Figma](https://www.figma.com/file/a3DgcjBh7wS8K6PvdFWr5V/Design?node-id=0%3A1)
 
 # App Structure
 
@@ -16,17 +18,13 @@ Sharing your social media handles is just one scan away.
     └── ➕ Generate QR Code
 ```
 
-## Figma Design Link
-
-- [Figma](https://www.figma.com/file/a3DgcjBh7wS8K6PvdFWr5V/Design?node-id=0%3A1)
-
 ## Getting Started with Coding Journey 🚀
 
 - This project depends heavily on firebase. A few resources to get you started if this is your first Firebase project:
 
     * [Blog: Firebase for Jetpack Compose](https://firebase.blog/posts/2022/04/building-an-app-android-jetpack-compose-firebase)
 
-- A few resources to get you started if this is your first Flutter project:
+- A few resources to get you started if this is your first Compose project:
 
     * [Write your first Compose app](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app#6)
 
@@ -68,7 +66,7 @@ samples, guidance on mobile development, and a full API reference.
 
   Check [Contributing.md](https://github.com/dscnsec/LinkIt/blob/main/CONTRIBUTING.md) for guidelines on contributing to this repo.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#linkit">back to top</a>)</p>
 
 ## Contact Us
 
